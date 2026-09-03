@@ -1,0 +1,29 @@
+{
+  "network": {
+    "name": "studionet",
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api",
+    "explorer_base": "https://explorer-studio.genlayer.com"
+  },
+  "contract": {
+    "address": "0xcD7D57f9f951c4E37d689Bf0b987853F819A9FDC",
+    "source_sha256": "B1C11C60E703ED1EB29F60227E0429F341AADBE487D62D1D6F41521BACD7C926",
+    "deployer_publisher": "0x5B6465eD6Ec0F2F7944b8279E8872123bf9b545a",
+    "deploy_transaction": "0xdbfb9e137821c165f06eeaadd26024deb6ce159e8b55b0c02a86737f4b9181ee",
+    "deploy_explorer": "https://explorer-studio.genlayer.com/tx/0xdbfb9e137821c165f06eeaadd26024deb6ce159e8b55b0c02a86737f4b9181ee",
+    "receipt_status": "FINALIZED",
+    "leader_execution": "SUCCESS",
+    "consensus_result": "MAJORITY_AGREE",
+    "validator_agreement": "5/5",
+    "source_parity": "PASS_AFTER_LINE_ENDING_NORMALIZATION",
+    "schema_method_count": 8
+  },
+  "artifact_sha256": {
+    "RESEARCH.md": "D1F2C7BD76ECF8FF6BA5F1C2577A24B54628A114A011CCE1EEEF272DEE799DF3",
+    "contracts/safety_label_action_vector_gate.py": "B1C11C60E703ED1EB29F60227E0429F341AADBE487D62D1D6F41521BACD7C926",
+    "tests/test_safety_label_action_vector_gate.py": "6781ADA323FE8CD8569AB3EDC9E87EDF9AFA035C26A0A51099F9D8F850D2617F",
+    "samples/source_en.txt": "836CDAFE2E525EE5E819BC7FA520C4FF7538F5D03033EE3997E14FB086B5018B",
+    "samples/translation_es.txt": "814DA25B6AEB2E709DFD3A6AC32EA56F3DFA587317F8A8747089C3E371DB1D7B",
+    "samples/e2e_scenarios.md": "A9138D6260744E3F434B72208B9FFC1407D163CC86E63C69296AEF9EFA19DDAA"
+  }
+}

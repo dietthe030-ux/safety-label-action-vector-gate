@@ -1,0 +1,7 @@
+# Safety Label Action Vector Gate
+
+Safety Label Action Vector Gate is a conservative release primitive for translated public safety labels. It turns two human-language label versions into a bounded, reusable oracle result: release only when the target locale is assessable and the independently normalized hazard/action vectors match; otherwise hold the translation or mark the locale unsupported.
+
+The trust boundary is explicit. A publisher seals the exact UTF-8 source hash, a translator submits the exact translation hash, and a distributor requests assessment. The contract independently extracts hazard, severity, actor, mandatory actions, prohibited actions, condition, and time. The validator compares stable decision data, while the contract recomputes vector equality from normalized fields before storing status. The stored read views are designed for downstream release workflows, catalog pipelines, and translation correction queues.
+
+The final Studionet deployment is [`0xcD7D57f9f951c4E37d689Bf0b987853F819A9FDC`](https://explorer-studio.genlayer.com/address/0xcD7D57f9f951c4E37d689Bf0b987853F819A9FDC). The deployment transaction and the complete scenario-by-scenario evidence are linked from [`verification/deployment.json`](verification/deployment.json) and [`verification/e2e-matrix.md`](verification/e2e-matrix.md). This contract is not a product-safety, legal-compliance, or translation-quality certification system; it is a transparent vector-consistency gate.
